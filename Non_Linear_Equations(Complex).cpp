@@ -38,7 +38,5 @@ main()
         x=tx;
         y=ty;
     }
-    cout<<setprecision(50)<<fn1(x,y)<<'\n';
-    cout<<setprecision(50)<<fn2(x,y)<<'\n';
     cout<<setprecision(30)<<x<<'\t'<<y;
 }
