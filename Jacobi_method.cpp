@@ -32,11 +32,12 @@ main()
                     xt[i]=xt[i]-(a[i][j]*x[j]);
             }
             xt[i]=xt[i]/a[i][i];
+            x[i]=xt[i];
         }
-        for(int j=0;j<n;j++)
+        /*for(int j=0;j<n;j++)
         {
             x[j]=xt[j];
-        }
+        }*/
     }
     for(int i=0;i<n;i++)
     {
